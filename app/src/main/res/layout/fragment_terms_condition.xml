@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".FragmentTermsCondition">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#434343"
+        android:text="Term's and Conditions"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:padding="12dp"/>
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" -- Rule's Regulation -- "
+                android:padding="9dp"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="@color/black">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Accepting These Term's"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:textColor="@color/black">
+            </TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="1. The coding learning application is provided for educational purposes only. It is not intended to be used for commercial purposes or to provide professional coding services.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="2. The coding learning application is designed to teach coding concepts using formatted code displayed in a TextView. The formatted code is intended to provide users with a better understanding of coding structures, syntax, and best practices.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="3. The application's formatted code is not intended to be copied or used in other applications without the express written permission of the application owner.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="4. The application owner makes no warranties, express or implied, regarding the accuracy or completeness of the formatted code provided in the application. Users are responsible for verifying and validating the code before using it in their own projects.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="5. The application owner is not liable for any damages, direct or indirect, that may arise from the use of the formatted code or the application itself. Users assume all risk associated with using the application and its contents.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="6. Users are solely responsible for any code they create using the application. The application owner is not responsible for any code errors, bugs, or security vulnerabilities that may arise from the use of the application or the formatted code.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="7. The application owner reserves the right to update or modify the terms and conditions of the application at any time without prior notice. Users are responsible for reviewing the terms and conditions periodically to ensure they are aware of any changes.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="8. By using the coding learning application, users agree to these terms and conditions. If users do not agree to these terms and conditions, they should not use the application.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="14dp"
+                android:textColor="@color/black"
+                android:text="The application owner may collect and use user data to improve the application's functionality and user experience. This data may include usage patterns, device information, and other non-personally identifiable information. The application owner will not share user data with third parties without the user's explicit consent. Users may not attempt to reverse-engineer, decompile, or modify the application's code or content. The application owner may offer additional features or services through the application that are subject to additional terms and conditions. The application owner reserves the right to modify or discontinue the application at any time without prior notice. Users are solely responsible for their use of the application and any consequences that may arise from that use.">
+            </TextView>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

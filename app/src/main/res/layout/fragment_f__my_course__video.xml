@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0FFE1"
+    tools:context=".FragmentMyCourse">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A9D5AB"
+        android:padding="12dp"
+        android:text="Course Video"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <SurfaceView
+        android:id="@+id/Banervideo"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="45dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web Devlopment Course"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/oswald"
+        android:gravity="center"
+        android:layout_marginTop="100dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Banervideo"
+        android:text="Lecture :"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#0F2871"
+        android:textSize="15dp">
+    </TextView>
+
+    <SurfaceView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="40dp" />
+
+
+    <ImageView
+        android:id="@+id/Mycourse_img_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/surfaceView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="-28dp"
+        android:layout_marginStart="48dp"
+        android:src="@drawable/pause">
+    </ImageView>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="260dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/surfaceView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="-31dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="30dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="174dp"
+        android:layout_height="160dp"
+        android:src="@drawable/drawer_header_logo">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABCoding"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#050D3E"
+        android:fontFamily="@font/cinzelmedium">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learning App"
+        android:textColor="#7A6115"
+        android:textSize="18dp">
+    </TextView>
+
+</LinearLayout>

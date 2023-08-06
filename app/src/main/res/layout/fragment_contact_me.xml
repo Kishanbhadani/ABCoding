@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".FragmentContactMe">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#434343"
+        android:text="Cotact Us"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:padding="12dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:paddingTop="20dp"
+        android:src="@drawable/contact_baner">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/contact_mail">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Contact_mail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="abcodinginfo@gmail.com"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:textColor="#05135E"
+            android:textSize="19dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/contact_call">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/Contact_call"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="079-234 5567"
+            android:gravity="center_vertical"
+            android:paddingLeft="12dp"
+            android:textColor="#05135E"
+            android:textSize="19dp">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:padding="5dp"
+            android:background="#C3C1C1"
+            android:hint="Type Your FullName"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            android:hint="Write Subject"
+            android:background="#C3C1C1"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:background="#C3C1C1"
+            android:layout_marginTop="8dp"
+            android:padding="5dp"
+            android:hint="Type messaged for query issue)"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Send Data">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>

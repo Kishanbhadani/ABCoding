@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7FBE8"
+    tools:context=".FragmentAboutUs">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#888686"
+        android:text="About us"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:padding="12dp"
+        android:textColor="@color/black"/>
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#5eb4e7"
+        android:src="@drawable/about_baner_main">
+    </ImageView>
+
+    <LinearLayout
+        android:id="@+id/about_vision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:src="@drawable/about_vision">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="|| VISION ||"
+                android:textStyle="bold"
+                android:fontFamily="@font/crimsonregular"
+                android:textSize="16dp"
+                android:textColor="#FF0404">
+            </TextView>
+            <TextView
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/edufoundation"
+                android:text="To develop young engineers with active and creative minds, a sense of understanding and sympathy for others and the courage to act on their beliefs. We stress the total development of each student: spiritual, moral, intellectual, social, emotional and physical.">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/about_mission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:text="|| MISSION ||"
+                android:textStyle="bold"
+                android:fontFamily="@font/crimsonregular"
+                android:textSize="16dp"
+                android:textColor="#FF0404">
+            </TextView>
+            <TextView
+                android:layout_width="215dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/edufoundation"
+                android:text="To treat every student as an individual, to recognize his / her potential and to ensure that he/she receives the best preparation to help one meets his /her career ambitions and goals.">
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="135dp"
+            android:layout_height="140dp"
+            android:src="@drawable/about_mission">
+        </ImageView>
+    </LinearLayout>
+
+
+
+</LinearLayout>

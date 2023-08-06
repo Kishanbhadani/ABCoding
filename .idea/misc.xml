@@ -1,0 +1,40 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/account_sec_item1.xml" value="0.17037037037037037" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/home_btn.xml" value="0.15" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/home_sub_notification.xml" value="0.2203125" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/ic_baseline_course_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/pause.xml" value="0.2203125" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/drawable/play.xml" value="0.2203125" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/activity_home_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/activity_login.xml" value="0.18" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/activity_registation.xml" value="0.25" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/activity_splash_screen_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/drawer_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_about_us.xml" value="0.22" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_account.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_contact_me.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_f__my_course__details_video.xml" value="0.21" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_f__my_course__video.xml" value="0.2" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_help_center.xml" value="0.18" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_my_course.xml" value="0.22" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/layout/fragment_terms_condition.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Kishan/Android MAD GIT/ABCoding/app/src/main/res/menu/header_menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

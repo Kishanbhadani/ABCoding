@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_Home"
+        android:title="Home"
+        android:icon="@drawable/ic_baseline_home_24">
+    </item>
+    <item
+        android:id="@+id/nav_MyCourse"
+        android:title="My Course"
+        android:icon="@drawable/ic_baseline_course_24">
+    </item>
+    <item
+        android:id="@+id/nav_HelpCenter"
+        android:title="Help Center"
+        android:icon="@drawable/ic_baseline_help_24">
+    </item>
+    <item
+        android:id="@+id/nav_Account"
+        android:title="Account"
+        android:icon="@drawable/ic_baseline_person_pin_24">
+    </item>
+</menu>

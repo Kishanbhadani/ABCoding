@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDFDFD"
+    tools:context=".FragmentHelpCenter">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#434343"
+        android:text="Help Center"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:padding="12dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/helpcenter_banerimg">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" -- Visit TO Our Branch For More Information-- "
+        android:gravity="center"
+        android:fontFamily="@font/oswald"
+        android:textSize="14dp"
+        android:textColor="#111C5C"
+        android:padding="12dp">
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/helpcenter_Sur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:paddingLeft="12dp"
+            android:src="@drawable/helpcenter_branch_department">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City: Surat(Main-Branch)"
+                android:fontFamily="@font/sonomedium"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#FF9800">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Punagam, near saradr patel bhavan chock ,Nanan varachha Road -395010"
+                android:textSize="14dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/crimsonregular"
+                android:textColor="#F11F1F">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/helpcenter_Raj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:paddingLeft="12dp"
+            android:src="@drawable/helpcenter_branch_department">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City: Rajkort"
+                android:fontFamily="@font/sonomedium"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#FF9800">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apexa colony, near sudama chock, s.p ring road -300080"
+                android:textSize="14dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/crimsonregular"
+                android:textColor="#F11F1F">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/helpcenter_Ahm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:paddingLeft="12dp"
+            android:src="@drawable/helpcenter_branch_department">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City: Ahemdabad"
+                android:fontFamily="@font/sonomedium"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#FF9800">
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Amrita city, opposite to a Law garden, C.G. road -380009"
+                android:textSize="14dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:fontFamily="@font/crimsonregular"
+                android:textColor="#F11F1F">
+            </TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
